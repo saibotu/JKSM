@@ -11,6 +11,7 @@
 #include "util.h"
 #include "3dsx.h"
 #include "titles.h"
+#include "png.h"
 
 int main(int argc, const char * argv[])
 {
@@ -43,4 +44,8 @@ int main(int argc, const char * argv[])
 
     sysExit();
     return 0;
+}
+
+void dummy() {
+  png_error(NULL, NULL);
 }
